@@ -1,0 +1,1 @@
+Simple test of tickrate based "script runner", going to be used on a bigger project some day.
