@@ -15,6 +15,7 @@ public class FightScript extends Script {
         this.actor2 = actor2;
     }
 
+    @Override
     public boolean runImplementation(long tick) {
         actor2.doDamage(actor1.calculateDamage());
         actor1.doDamage(actor2.calculateDamage());

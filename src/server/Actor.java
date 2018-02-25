@@ -10,18 +10,30 @@ import java.util.UUID;
  */
 public class Actor {
 
-    // Later on we might want to remove scripts from some other model by using the UUID, so let's save these on hashmap
+    // Later on we might want to remove scripts from some model by using the UUID, so let's save these on hashmap
     HashMap<UUID, Script> scripts;
-
+    HashMap<Class<?>, Attribute> attributes;
+    
     String name;
     int health;
 
     public Actor(String name) {
         scripts = new HashMap<>();
+        attributes = new HashMap<>();
+        
+        Location l = new Location();
+        attributes.put(l.getClass(), l);
+        
+        Location ll = getAttribute(Location.class);
         health = 100;
         this.name = name;
     }
 
+    public <T extends Attribute> T getAttribute(Class<T> type) {
+        return attributes.get(type).getAttribute(type);
+    }
+
+    
     public boolean addScript(Script script) {
         boolean addedAlready = scripts.containsKey(script.getUUID());
         if (!addedAlready) {
