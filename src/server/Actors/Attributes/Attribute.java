@@ -1,6 +1,7 @@
-package server;
+package server.Actors.Attributes;
 
 import java.util.UUID;
+import server.Actors.Actor;
 
 /**
  *
@@ -9,6 +10,11 @@ import java.util.UUID;
  */
 
 public class Attribute {
+    Actor owner;
+    
+    public void setOwner(Actor owner){
+        this.owner = owner;
+    }
     
     public <T extends Attribute> T getAttribute(Class<T> type) {
         return type.cast(this);

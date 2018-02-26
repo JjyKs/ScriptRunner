@@ -1,4 +1,8 @@
-package server;
+package server.Tools;
+
+import server.Actors.Actor;
+import server.Actors.Scripts.Script;
+import server.Actors.Scripts.FightScript;
 
 /**
  *

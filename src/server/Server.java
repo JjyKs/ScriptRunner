@@ -1,5 +1,9 @@
 package server;
 
+import server.Tools.CommandExecutor;
+import server.Actors.Actor;
+import server.Actors.Factories.PlayerFactory;
+
 /**
  *
  * @author JjyKs
@@ -26,8 +30,8 @@ public class Server {
     }
 
     public void gameLoop() {
-        Actor player1 = new Actor("player1");
-        Actor player2 = new Actor("player2");
+        Actor player1 = PlayerFactory.makePlayer("player1");
+        Actor player2 = PlayerFactory.makePlayer("player2");
         cmdExec.StartFight(player1, player2);
 
         while (true) {

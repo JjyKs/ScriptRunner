@@ -1,4 +1,4 @@
-package server;
+package server.Actors.Scripts;
 
 import java.util.UUID;
 
