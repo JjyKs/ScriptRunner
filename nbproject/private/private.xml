@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/JjyKs/Documents/NetBeansProjects/Server/src/server/Actor.java</file>
-            <file>file:/C:/Users/JjyKs/Documents/NetBeansProjects/Server/src/server/FightScript.java</file>
-            <file>file:/C:/Users/JjyKs/Documents/NetBeansProjects/Server/src/server/Script.java</file>
+            <file>file:/C:/Users/JjyKs/Documents/NetBeansProjects/Server/src/server/Actors/Scripts/Script.java</file>
+            <file>file:/C:/Users/JjyKs/Documents/NetBeansProjects/Server/src/server/Actors/Actor.java</file>
+            <file>file:/C:/Users/JjyKs/Documents/NetBeansProjects/Server/src/server/Tools/CombatTools.java</file>
             <file>file:/C:/Users/JjyKs/Documents/NetBeansProjects/Server/src/server/Server.java</file>
-            <file>file:/C:/Users/JjyKs/Documents/NetBeansProjects/Server/src/server/CommandExecutor.java</file>
+            <file>file:/C:/Users/JjyKs/Documents/NetBeansProjects/Server/src/server/Actors/Factories/PlayerFactory.java</file>
+            <file>file:/C:/Users/JjyKs/Documents/NetBeansProjects/Server/src/server/Actors/Attributes/Attribute.java</file>
+            <file>file:/C:/Users/JjyKs/Documents/NetBeansProjects/Server/src/server/Actors/Attributes/PlayerInfo.java</file>
+            <file>file:/C:/Users/JjyKs/Documents/NetBeansProjects/Server/build.xml</file>
+            <file>file:/C:/Users/JjyKs/Documents/NetBeansProjects/Server/src/server/Actors/Scripts/FightScript.java</file>
+            <file>file:/C:/Users/JjyKs/Documents/NetBeansProjects/Server/src/server/Actors/Attributes/Location.java</file>
+            <file>file:/C:/Users/JjyKs/Documents/NetBeansProjects/Server/nbproject/project.xml</file>
+            <file>file:/C:/Users/JjyKs/Documents/NetBeansProjects/Server/src/server/Tools/CommandExecutor.java</file>
+            <file>file:/C:/Users/JjyKs/Documents/NetBeansProjects/Server/src/server/Actors/Attributes/CombatStats.java</file>
         </group>
     </open-files>
 </project-private>

@@ -13,6 +13,10 @@ public class PlayerInfo extends Attribute {
     public String getName() {
         return name;
     }
+    
+     public void setName(String name) {
+        this.name = name;
+    }
 
     public PlayerInfo(String name) {
         this.name = name; 

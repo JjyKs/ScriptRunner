@@ -6,6 +6,7 @@ package server.Actors.Attributes;
  */
 public class CombatStats extends Attribute {
 
+    @Networked
     private int health;
     private int damage;
     private int defence;

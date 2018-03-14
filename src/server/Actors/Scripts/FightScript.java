@@ -23,14 +23,17 @@ public class FightScript extends Script {
     public boolean runImplementation(long tick) {
         CombatTools.doDamage(CombatTools.calculateDamage(actor2), actor1);
         CombatTools.doDamage(CombatTools.calculateDamage(actor1), actor2);
+        printStatus();
         
+        return !(CombatTools.isAlive(actor1) && CombatTools.isAlive(actor2));
+    }
+
+    private void printStatus() {
         System.out.println("");
         System.out.println("---FIGHT---");
         System.out.println("Actor1: " + actor1.getAttribute(CombatStats.class).getHealth());
         System.out.println("Actor2: " + actor2.getAttribute(CombatStats.class).getHealth());
         System.out.println("-----------");
         System.out.println("");
-        
-        return !(CombatTools.isAlive(actor1) && CombatTools.isAlive(actor2));
     }
 }
